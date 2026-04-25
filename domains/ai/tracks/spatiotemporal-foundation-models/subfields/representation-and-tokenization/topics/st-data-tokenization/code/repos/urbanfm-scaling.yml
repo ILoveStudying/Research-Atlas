@@ -1,0 +1,17 @@
+id: urbanfm-scaling
+项目名: UrbanFM / UrbanDFM 待确认
+来源论文: papers/records/2026-urbanfm-scaling.yml
+官方仓库: ""
+本地代码: ""
+主要框架: 待确认
+复现状态: 未找到可核验公开仓库
+检索结论:
+  - GitHub 精确搜索 UrbanDFM 返回 0 个相关仓库。
+  - GitHub 搜索 UrbanFM 命中 yoshall/UrbanFM，但该项目是 KDD 2019 Urban Flow Magnifier，不是 2026 scaling foundation model。
+配置位置:
+  - code/configs/urbanfm-scaling/README.md
+已知问题:
+  - 需要确认用户所说 UrbanDFM 是否指 UrbanFM。
+  - 需要继续跟踪 arXiv 页面、作者主页或论文附录中的代码发布信息。
+复现记录: []
+

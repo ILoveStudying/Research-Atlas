@@ -4,4 +4,24 @@
   topic: st-data-tokenization
   记录路径: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/repos/bigcity.yml
   复现状态: 待复现
-
+- id: unist
+  项目名: UniST
+  来源论文: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2024-unist.yml
+  topic: st-data-tokenization
+  记录路径: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/repos/unist.yml
+  本地代码: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/unist
+  复现状态: 已下载，待复现
+- id: urbandit
+  项目名: UrbanDiT
+  来源论文: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2025-urbandit.yml
+  topic: st-data-tokenization
+  记录路径: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/repos/urbandit.yml
+  本地代码: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/urbandit
+  复现状态: 已下载，待复现
+- id: urbanfm-scaling
+  项目名: UrbanFM / UrbanDFM 待确认
+  来源论文: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2026-urbanfm-scaling.yml
+  topic: st-data-tokenization
+  记录路径: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/repos/urbanfm-scaling.yml
+  本地代码: ""
+  复现状态: 未找到可核验公开仓库

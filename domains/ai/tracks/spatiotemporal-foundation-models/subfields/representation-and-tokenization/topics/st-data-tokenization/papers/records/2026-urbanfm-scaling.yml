@@ -1,0 +1,25 @@
+id: 2026-urbanfm-scaling
+标题: "UrbanFM: Scaling Urban Spatio-Temporal Foundation Models"
+别名:
+  - UrbanDFM（用户请求名称，待确认是否为同一工作或笔误）
+年份: 2026
+会议: arXiv
+分级: B
+论文链接: https://arxiv.org/abs/2602.20677
+代码链接: ""
+数据集链接: ""
+状态: 已登记，代码待确认
+是否已消化到wiki: false
+是否已复现: false
+证据强度: arXiv 摘要页 + 本地综述条目
+核心贡献:
+  - 提出 WorldST / MiniST unit，代表城市时空基础模型 scaling 路线。
+  - 作为 BIGCity、UniST、UrbanDiT 之后值得跟踪的 scaling 方向。
+时空token相关性:
+  - WorldST / MiniST unit 与 ST-unit、grid/graph sequentialization 直接相关。
+  - 适合作为统一 ST-token schema 的候选对比对象。
+局限:
+  - 截至本次检索，未找到精确名为 UrbanDFM 的公开论文或 GitHub 仓库。
+  - GitHub 搜索中的 yoshall/UrbanFM 指向 KDD 2019 Urban Flow Magnifier，不是该 scaling 工作，暂不下载以免误归档。
+关联代码记录: code/repos/urbanfm-scaling.yml
+

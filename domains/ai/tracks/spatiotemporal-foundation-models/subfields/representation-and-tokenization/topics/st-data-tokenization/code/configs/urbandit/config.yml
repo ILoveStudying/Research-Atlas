@@ -1,0 +1,26 @@
+# UrbanDiT 配置快照
+
+项目名: UrbanDiT
+状态: 已从 README 抽取初始复现配置，未实际运行
+代码路径: ../../github/urbandit
+任务:
+  - bi-directional prediction
+  - temporal interpolation
+  - spatial extrapolation
+  - spatio-temporal imputation
+表示与prompt:
+  time_patch: 1
+  stride: 2
+  t_patch_len: 2
+  is_prompt: 1
+  diffusion_steps: 500
+  num_inference_steps: 20
+  his_len: 12
+  pred_len: 12
+训练:
+  python: ">=3.9"
+  torch: "2.0.0"
+  train入口: src/train_one_step.py
+  learning_rate: 1e-4
+  norm_type: standard
+

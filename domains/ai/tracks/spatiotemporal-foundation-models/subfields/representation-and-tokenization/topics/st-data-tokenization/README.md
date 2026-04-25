@@ -17,8 +17,17 @@
 - 论文记录：`papers/records/`
 - 精读笔记：`papers/notes/`
 - 代码记录：`code/repos/`
+- GitHub 下载：`code/github/`
 - 配置快照：`code/configs/`
 - 复现记录：`code/runs/`
 - 独立知识库：`llm-wiki/`
 - 综合产物：`synthesis/`
 
+## 当前已登记论文与代码
+
+| 项目 | 论文记录 | 代码记录 | GitHub 下载 |
+|---|---|---|---|
+| UniST | `papers/records/2024-unist.yml` | `code/repos/unist.yml` | `code/github/unist` |
+| BIGCity | `papers/records/2025-bigcity.yml` | `code/repos/bigcity.yml` | `code/github/bigcity` |
+| UrbanDiT | `papers/records/2025-urbandit.yml` | `code/repos/urbandit.yml` | `code/github/urbandit` |
+| UrbanFM / UrbanDFM 待确认 | `papers/records/2026-urbanfm-scaling.yml` | `code/repos/urbanfm-scaling.yml` | 未找到可核验公开仓库 |

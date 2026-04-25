@@ -1,0 +1,25 @@
+id: 2024-unist
+标题: "UniST: A Prompt-Empowered Universal Model for Urban Spatio-Temporal Prediction"
+年份: 2024
+会议: KDD
+分级: A1
+论文链接: https://openreview.net/forum?id=jO7WWwnZIM
+arxiv链接: https://arxiv.org/abs/2402.11838
+代码链接: https://github.com/tsinghua-fib-lab/UniST
+数据集链接: https://github.com/tsinghua-fib-lab/UniST/blob/main/dataset/README.md
+状态: 已登记，代码已下载
+是否已消化到wiki: false
+是否已复现: false
+证据强度: 官方代码仓库 README + OpenReview/arXiv
+核心贡献:
+  - 提出 prompt-empowered universal model，用时空知识 prompt 支持城市时空预测。
+  - 覆盖短期预测、长期预测、few-shot 和 zero-shot 场景。
+  - 面向 grid/graph 数据形态，强调跨场景泛化。
+时空token相关性:
+  - 通过时空知识 prompt 和 memory pool 将空间、时间、周期和上下文信息接入统一模型。
+  - 可作为 BIGCity ST-token 与 UrbanDiT prompt/patch 方案之间的过渡基线。
+局限:
+  - README 显示 model weights still coming soon，需要继续跟踪权重可用性。
+  - 需要核验多数据集下载、路径组织和 zero-shot 脚本。
+关联代码记录: code/repos/unist.yml
+

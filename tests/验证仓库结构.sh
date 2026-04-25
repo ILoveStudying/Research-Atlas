@@ -35,6 +35,7 @@ require_contains() {
 
 require_file "README.md"
 require_file ".gitignore"
+require_file ".gitmodules"
 require_file "研究更新日志.md"
 
 require_file "docs/00-使用手册.md"
@@ -76,14 +77,25 @@ require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/repre
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/llm-wiki/.wiki-schema.md"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/llm-wiki/purpose.md"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2025-bigcity.yml"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2024-unist.yml"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2025-urbandit.yml"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2026-urbanfm-scaling.yml"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/repos/bigcity.yml"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/repos/unist.yml"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/repos/urbandit.yml"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/repos/urbanfm-scaling.yml"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/README.md"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/synthesis/大模型时空世界Token化顶会论文综述.md"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/llm-wiki/wiki/sources/2026-04-25-时空token论文与代码记录.md"
 
 require_contains "README.md" "research-atlas"
 require_contains "研究更新日志.md" "st-data-tokenization"
 require_contains "registry/update-log.yml" "st-data-tokenization"
 require_contains "registry/wiki-catalog.yml" "llm-wiki"
 require_contains "scripts/record-update.sh" "追加一条全局内容更新记录"
+require_contains ".gitmodules" "tsinghua-fib-lab/UniST"
+require_contains ".gitmodules" "bigscity/BIGCity"
+require_contains ".gitmodules" "tsinghua-fib-lab/UrbanDiT"
 
 if [ ! -d "$TOPIC_DIR/llm-wiki/raw" ] || [ ! -d "$TOPIC_DIR/llm-wiki/wiki" ]; then
   echo "topic 的 llm-wiki 目录不完整：$TOPIC_DIR/llm-wiki"

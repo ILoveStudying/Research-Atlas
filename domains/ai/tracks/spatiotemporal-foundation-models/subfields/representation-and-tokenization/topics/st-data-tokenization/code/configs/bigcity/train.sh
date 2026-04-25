@@ -4,5 +4,24 @@
 
 set -euo pipefail
 
-echo "请在核验官方代码后补充 BIGCity 的训练命令。"
+cd "$(dirname "$0")/../../github/bigcity"
 
+echo "Stage 1: masked reconstruction pretraining"
+python pretrain.py \
+  --task_name pretrain \
+  --use_gpu \
+  --root_path ../dataset/ \
+  --city xa \
+  --mask_rate 0.5 \
+  --batch_size 32 \
+  --learning_rate 2e-4 \
+  --train_epochs 20
+
+echo "Stage 2: task-oriented prompt tuning"
+python finetune.py \
+  --use_gpu \
+  --root_path ../dataset/ \
+  --city xa \
+  --batch_size 32 \
+  --learning_rate 2e-4 \
+  --train_epochs 20
