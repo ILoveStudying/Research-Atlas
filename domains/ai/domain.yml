@@ -1,0 +1,6 @@
+slug: ai
+中文名: AI
+说明: 人工智能相关研究，包括大模型、世界模型、多模态、科学智能与具身智能。
+tracks:
+  - spatiotemporal-foundation-models
+

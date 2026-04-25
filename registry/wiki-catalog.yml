@@ -1,0 +1,10 @@
+- topic: st-data-tokenization
+  中文名: 时空数据 Token 化
+  domain: ai
+  track: spatiotemporal-foundation-models
+  subfield: representation-and-tokenization
+  wiki路径: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/llm-wiki
+  状态: 已初始化
+  语言: 中文
+  维护策略: 论文、代码、配置、实验记录都先落到 topic，再消化到该 topic 的 llm-wiki。
+

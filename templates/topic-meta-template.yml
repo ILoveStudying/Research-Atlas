@@ -1,0 +1,12 @@
+slug: "{{slug}}"
+中文名: "{{中文名}}"
+domain: "{{domain}}"
+track: "{{track}}"
+subfield: "{{subfield}}"
+状态: 活跃
+llm_wiki: llm-wiki
+研究目标:
+  - 请写入该 topic 的核心目标
+关键问题:
+  - 请写入该 topic 需要长期追踪的问题
+

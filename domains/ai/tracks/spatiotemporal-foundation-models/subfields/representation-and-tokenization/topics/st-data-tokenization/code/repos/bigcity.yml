@@ -1,0 +1,14 @@
+id: bigcity
+项目名: BIGCity
+来源论文: papers/records/2025-bigcity.yml
+官方仓库: ""
+主要框架: PyTorch
+复现状态: 待复现
+配置位置:
+  - code/configs/bigcity/config.yml
+  - code/configs/bigcity/train.sh
+  - code/configs/bigcity/environment.yml
+已知问题:
+  - 官方仓库和依赖版本需要继续核验。
+复现记录: []
+

@@ -1,0 +1,8 @@
+slug: representation-and-tokenization
+中文名: 表示学习与 Token 化
+domain: ai
+track: spatiotemporal-foundation-models
+说明: 研究空间、时间、拓扑、动态属性、语义事件和动作如何被编码为模型可用表示。
+topics:
+  - st-data-tokenization
+

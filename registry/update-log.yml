@@ -1,0 +1,13 @@
+- 时间: "2026-04-25 00:00:00 +0800"
+  类型: 初始化
+  范围: root
+  标题: research-atlas 仓库骨架
+  路径: /
+  说明: 建立长期研究调研仓库结构。
+- 时间: "2026-04-25 00:00:00 +0800"
+  类型: 初始化 topic
+  范围: "AI / 时空大模型 / 表示学习与 Token 化"
+  标题: st-data-tokenization
+  路径: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization
+  说明: 创建时空数据 Token 化 topic。
+

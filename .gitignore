@@ -1,0 +1,28 @@
+# macOS 与编辑器缓存
+.DS_Store
+.idea/
+.vscode/
+
+# Python / Node / 通用构建产物
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+build/
+
+# 大文件建议使用 Git LFS 或外部存储登记链接
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.zip
+*.tar
+*.tar.gz
+
+# 本地环境与临时输出
+.env
+.venv/
+tmp/
+outputs/
+

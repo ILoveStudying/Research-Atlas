@@ -1,0 +1,24 @@
+仓库名: research-atlas
+版本: 1
+分类层级:
+  - domain
+  - track
+  - subfield
+  - topic
+domains:
+  - slug: ai
+    中文名: AI
+    说明: 人工智能相关研究，包括大模型、世界模型、多模态、科学智能与具身智能。
+    tracks:
+      - slug: spatiotemporal-foundation-models
+        中文名: 时空大模型
+        说明: 研究真实世界时空数据如何进入基础模型、世界模型和推理系统。
+        subfields:
+          - slug: representation-and-tokenization
+            中文名: 表示学习与 Token 化
+            说明: 研究空间、时间、拓扑、事件和动作如何被编码为模型可用表示。
+            topics:
+              - slug: st-data-tokenization
+                中文名: 时空数据 Token 化
+                路径: domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization
+

@@ -1,0 +1,16 @@
+# BIGCity 配置快照
+# 这里记录影响 ST-unit、ST tokenizer、数据集和训练行为的关键参数。
+
+项目名: BIGCity
+状态: 待从官方代码核验
+数据:
+  轨迹数据: 待补充
+  交通状态数据: 待补充
+表示:
+  st_unit: 待补充字段定义
+  tokenizer: 待补充实现细节
+训练:
+  batch_size: 待补充
+  learning_rate: 待补充
+  seed: 待补充
+
