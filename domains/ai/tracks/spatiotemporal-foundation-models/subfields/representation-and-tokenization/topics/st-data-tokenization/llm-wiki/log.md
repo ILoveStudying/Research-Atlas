@@ -18,6 +18,6 @@
 
 ## 2026-04-26 debate | ST-token 与 NLP/CV token 的差异和影响面
 
-- **新增辩论记录**：`wiki/debates/2026-04-26-ST-token-vs-NLP-CV-token.md`
-- **原始记录**：`raw/notes/2026-04-26-ST-token-vs-NLP-CV-token-辩论.md`
+- **新增辩论记录**：`wiki/debates/ST-token 与 NLP-CV token 的差异和影响面.md`
+- **原始记录**：`raw/notes/ST-token 与 NLP-CV token 的差异和影响面-辩论原始记录.md`
 - **记录类型**：derived debate，不作为一手论文证据，只作为研究判断和问题清单

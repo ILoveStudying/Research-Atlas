@@ -76,7 +76,7 @@ require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/repre
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/topic.yml"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/llm-wiki/.wiki-schema.md"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/llm-wiki/purpose.md"
-require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/llm-wiki/wiki/debates/2026-04-26-ST-token-vs-NLP-CV-token.md"
+require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/llm-wiki/wiki/debates/ST-token 与 NLP-CV token 的差异和影响面.md"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2025-bigcity.yml"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2024-unist.yml"
 require_file "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/papers/records/2025-urbandit.yml"

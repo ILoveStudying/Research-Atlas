@@ -5,7 +5,7 @@ tags: [ST-token, tokenizer, NLP, CV, 现实世界接口]
 created: 2026-04-26
 updated: 2026-04-26
 sources:
-  - raw/notes/2026-04-26-ST-token-vs-NLP-CV-token-辩论.md
+  - raw/notes/ST-token 与 NLP-CV token 的差异和影响面-辩论原始记录.md
   - wiki/sources/2026-04-25-时空token论文与代码记录.md
 ---
 
@@ -74,4 +74,3 @@ BIGCity 的 ST-unit 可以写成：
 - [[ST tokenizer]]
 - [[BIGCity]]
 - [[UrbanDiT]]
-
