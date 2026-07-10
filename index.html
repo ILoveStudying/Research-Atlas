@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>av-industry-radar</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #2563eb;
+    }
+    .sidebar-nav li {
+      line-height: 1.6;
+    }
+    .sidebar {
+      width: 360px;
+    }
+    .content {
+      left: 360px;
+    }
+    .sidebar-nav ul {
+      margin: 0 0 0 12px;
+      padding-left: 12px;
+    }
+    .sidebar-nav > ul > li {
+      margin: 8px 0;
+    }
+    .sidebar-nav strong {
+      display: block;
+      margin: 8px 0 4px;
+      color: #111827;
+      font-weight: 600;
+    }
+    @media screen and (max-width: 768px) {
+      .sidebar {
+        left: -360px;
+      }
+      .content {
+        left: 0;
+      }
+      .app-nav,
+      .github-corner {
+        display: none;
+      }
+      body.close .sidebar {
+        transform: translateX(360px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">加载中...</div>
+  <script src="//cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: false });
+    var STATIC_SIDEBAR_HTML = [
+      '<ul>',
+      '<li><a href="#/">首页</a></li>',
+      '<li><a href="#/数据规范">数据规范</a></li>',
+      '<li><strong>分类导航</strong>',
+      '<ul>',
+      '<li><strong>车企 OEM</strong>',
+      '<ul>',
+      '<li><strong>按梯队</strong>',
+      '<ul>',
+      '<li><a href="#/wiki/oems/README">梯队总览</a></li>',
+      '<li><a href="#/wiki/oems/README?id=第一梯队全球规模与智驾标杆">第一梯队｜全球规模与智驾标杆</a></li>',
+      '<li><a href="#/wiki/oems/README?id=第二梯队中国高阶智驾主力">第二梯队｜中国高阶智驾主力</a></li>',
+      '<li><a href="#/wiki/oems/README?id=第三梯队海外主流智驾跟进">第三梯队｜海外主流智驾跟进</a></li>',
+      '<li><a href="#/wiki/oems/README?id=第四梯队特色区域新势力样本">第四梯队｜特色/区域/新势力样本</a></li>',
+      '</ul>',
+      '</li>',
+      '<li><strong>按国家/车系</strong>',
+      '<ul>',
+      '<li><a href="#/wiki/oems/README?id=按国家车系分类">车系总览</a></li>',
+      '<li><a href="#/wiki/oems/README?id=中系中国品牌">中系｜中国品牌</a></li>',
+      '<li><a href="#/wiki/oems/README?id=德系德国品牌">德系｜德国品牌</a></li>',
+      '<li><a href="#/wiki/oems/README?id=日系日本品牌">日系｜日本品牌</a></li>',
+      '<li><a href="#/wiki/oems/README?id=韩系韩国品牌">韩系｜韩国品牌</a></li>',
+      '<li><a href="#/wiki/oems/README?id=美系美国品牌">美系｜美国品牌</a></li>',
+      '<li><a href="#/wiki/oems/README?id=欧系其他欧洲品牌">欧系其他｜欧洲品牌</a></li>',
+      '</ul>',
+      '</li>',
+      '</ul>',
+      '</li>',
+      '<li><strong>自动驾驶公司</strong>',
+      '<ul>',
+      '<li><strong>按无人驾驶场景</strong>',
+      '<ul>',
+      '<li><a href="#/wiki/ad-companies/README?id=按赛道业务类型分类">场景总览</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=Robotaxi">Robotaxi</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=Robotruck">Robotruck</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=量产辅助驾驶">量产辅助驾驶</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=RobobusRobovan">Robobus/Robovan</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=末端配送">末端配送</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=港口">港口</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=矿区">矿区</a></li>',
+      '</ul>',
+      '</li>',
+      '<li><strong>按能力类型</strong>',
+      '<ul>',
+      '<li><a href="#/wiki/ad-companies/README?id=全栈多赛道">全栈/多赛道</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=芯片计算平台">芯片/计算平台</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=传感器激光雷达">传感器/激光雷达</a></li>',
+      '<li><a href="#/wiki/ad-companies/README?id=仿真验证工具链">仿真/验证工具链</a></li>',
+      '</ul>',
+      '</li>',
+      '</ul>',
+      '</li>',
+      '</ul>',
+      '</li>',
+      '<li><strong>Wiki 总览</strong>',
+      '<ul>',
+      '<li><a href="#/wiki/oems/README">车企 OEM 总览</a></li>',
+      '<li><a href="#/wiki/ad-companies/README">自动驾驶公司总览</a></li>',
+      '<li><a href="#/wiki/segments/README">赛道总览</a></li>',
+      '</ul>',
+      '</li>',
+      '<li><strong>赛道页面</strong>',
+      '<ul>',
+      '<li><a href="#/wiki/segments/robotaxi">Robotaxi</a></li>',
+      '<li><a href="#/wiki/segments/production-adas">量产辅助驾驶</a></li>',
+      '<li><a href="#/wiki/segments/robotruck">Robotruck</a></li>',
+      '<li><a href="#/wiki/segments/robobus-robovan">Robobus/Robovan</a></li>',
+      '<li><a href="#/wiki/segments/last-mile-delivery">末端配送</a></li>',
+      '<li><a href="#/wiki/segments/port">港口</a></li>',
+      '<li><a href="#/wiki/segments/mining">矿区</a></li>',
+      '</ul>',
+      '</li>',
+      '</ul>'
+    ].join('');
+
+    function installStaticSidebar() {
+      var nav = document.querySelector('.sidebar-nav');
+      if (!nav) {
+        return;
+      }
+      nav.innerHTML = STATIC_SIDEBAR_HTML;
+      nav.querySelectorAll('a').forEach(function(anchor) {
+        var href = anchor.getAttribute('href') || '';
+        if (href.indexOf('#/') === 0) {
+          anchor.setAttribute('data-route', href.slice(2));
+        }
+      });
+    }
+
+    function installSidebarRouter() {
+      if (window.__avIndustrySidebarRouterInstalled) {
+        return;
+      }
+      window.__avIndustrySidebarRouterInstalled = true;
+      document.addEventListener('click', function(event) {
+        var target = event.target;
+        var anchor = target && target.closest ? target.closest('.sidebar-nav a[data-route]') : null;
+        if (!anchor) {
+          return;
+        }
+        event.preventDefault();
+        event.stopPropagation();
+        var route = anchor.getAttribute('data-route') || '';
+        window.location.hash = route ? '#/' + route : '#/';
+      }, true);
+    }
+
+    function normalizeLinks(scope, base) {
+      document.querySelectorAll(scope + ' a[href]').forEach(function(anchor) {
+        var href = anchor.getAttribute('href');
+        if (!href || href.indexOf('://') > -1 || href.indexOf('//') === 0 || href.indexOf('#/') === 0 || href.indexOf('mailto:') === 0) {
+          return;
+        }
+        if (href.indexOf('.md') === -1) {
+          return;
+        }
+        var parts = href.split('#');
+        var path = parts[0];
+        var hash = parts[1] ? '?id=' + parts[1] : '';
+        var segments = path.charAt(0) === '/'
+          ? path.slice(1).split('/')
+          : base.concat(path.split('/'));
+        var normalized = [];
+        segments.forEach(function(segment) {
+          if (!segment || segment === '.') {
+            return;
+          }
+          if (segment === '..') {
+            normalized.pop();
+            return;
+          }
+          normalized.push(segment);
+        });
+        var routePath = normalized.join('/').replace(/\.md$/, '');
+        anchor.setAttribute('href', '#/' + routePath + hash);
+      });
+    }
+
+    function normalizeDataRouteLinks() {
+      document.querySelectorAll('a[data-route]').forEach(function(anchor) {
+        var route = anchor.getAttribute('data-route') || '';
+        route = route.replace(/^#\/?/, '').replace(/^\/+/, '');
+        anchor.setAttribute('href', route ? '#/' + route : '#/');
+      });
+    }
+
+    function normalizeMarkdownLinks() {
+      var route = (window.location.hash || '#/README')
+        .replace(/^#\/?/, '')
+        .split('?')[0]
+        .split('#')[0];
+      var base = route.split('/');
+      base.pop();
+      normalizeDataRouteLinks();
+      normalizeLinks('.markdown-section', base);
+      normalizeLinks('.sidebar-nav', []);
+      normalizeDataRouteLinks();
+    }
+    window.$docsify = {
+      name: 'av-industry-radar',
+      repo: 'ILoveStudying/Research-Atlas',
+      loadSidebar: true,
+      relativePath: false,
+      subMaxLevel: 2,
+      search: 'auto',
+      markdown: {
+        renderer: {
+          code: function(code, lang) {
+            if (lang === 'mermaid') {
+              return '<div class="mermaid">' + code + '</div>';
+            }
+            return this.origin.code.apply(this, arguments);
+          }
+        }
+      },
+      plugins: [
+        function(hook) {
+          hook.mounted(function() {
+            installSidebarRouter();
+            installStaticSidebar();
+            normalizeMarkdownLinks();
+          });
+          hook.doneEach(function() {
+            installSidebarRouter();
+            installStaticSidebar();
+            mermaid.run({ querySelector: '.mermaid' });
+            normalizeMarkdownLinks();
+            setTimeout(function() {
+              installStaticSidebar();
+              normalizeMarkdownLinks();
+            }, 100);
+          });
+        }
+      ]
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>

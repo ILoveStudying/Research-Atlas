@@ -1,0 +1,65 @@
+---
+名称: Torc Robotics
+英文名: Torc
+类型: L4运营商
+成立: 2005
+总部: Blacksburg，美国
+状态: 活跃
+赛道:
+- Robotruck
+主营业务: 戴姆勒卡车旗下自动驾驶卡车公司，面向干线物流开发 L4 卡车系统
+代表产品:
+- 名称: Torc Autonomous Trucking
+  定位: L4 干线卡车系统
+合作车企:
+- Daimler Truck
+- Freightliner
+商业模式:
+- 车企平台集成
+- 货运运营合作
+融资轮次: '~'
+最新估值_亿美元: '~'
+营收_万元: '~'
+净利润_万元: '~'
+车队规模: '~'
+年交付: '~'
+数据更新: 2026-06
+来源:
+- https://torc.ai
+- https://www.daimlertruck.com
+---
+
+# Torc Robotics
+
+## 定位/主营业务
+
+戴姆勒卡车旗下自动驾驶卡车公司，面向干线物流开发 L4 卡车系统。本页用于记录公司在自动驾驶产业链中的位置、代表产品、合作关系和主要赛道；营收、估值、净利润等易变数值未核实时保持 `~`。
+
+## 产品矩阵
+
+| 产品 | 定位 | 芯片 | 算力TOPS | 传感器 | 交付形态 |
+| --- | --- | --- | --- | --- | --- |
+| Torc Autonomous Trucking | L4 干线卡车系统 | ~ | ~ | ~ | L4卡车系统 |
+
+## 合作关系
+
+```mermaid
+flowchart LR
+    Company["Torc Robotics"] --> Product["代表产品/方案"]
+    Company --> OEM["Daimler Truck / Freightliner"]
+    Product --> Segment["Robotruck"]
+```
+
+## 里程碑
+
+```mermaid
+timeline
+    title Torc Robotics 里程碑
+    2024 : 自动驾驶产品继续向量产、运营或场景闭环推进
+    2025 : 关注客户扩展、成本下降和安全验证
+    2026 : 关注规模化交付、跨场景泛化和商业闭环
+```
+
+## 一句话点评
+
+Torc Robotics 的核心观察点是能否把技术能力转化为稳定交付、真实运营数据和可持续商业模式。

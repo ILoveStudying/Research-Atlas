@@ -1,9 +1,0 @@
-[submodule "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/unist"]
-	path = domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/unist
-	url = https://github.com/tsinghua-fib-lab/UniST.git
-[submodule "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/bigcity"]
-	path = domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/bigcity
-	url = https://github.com/bigscity/BIGCity.git
-[submodule "domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/urbandit"]
-	path = domains/ai/tracks/spatiotemporal-foundation-models/subfields/representation-and-tokenization/topics/st-data-tokenization/code/github/urbandit
-	url = https://github.com/tsinghua-fib-lab/UrbanDiT.git

@@ -1,0 +1,80 @@
+---
+名称: Polestar
+英文名: Polestar
+车标: ../../assets/logos/oems/polestar.png
+车标来源: https://www.google.com/s2/favicons?domain=polestar.com&sz=256
+类型: 外资
+成立: 2017
+总部: Gothenburg，瑞典
+国家: 瑞典
+梯队: 第四梯队｜特色/区域/新势力样本
+状态: 已上市
+年销量_万辆: '~'
+营收_亿元: 219.71
+净利润_亿元: -169.36
+财务口径: Polestar 2025年合并口径；美元按ECB 2025年均汇率折算。
+核心品牌:
+- Polestar
+核心产品:
+- Polestar 2
+- Polestar 3
+- Polestar 4
+销量好原因: 北欧设计和沃尔沃/吉利平台背书形成品牌认知，但渠道、价格和产品节奏限制规模。
+智驾方案: Pilot Assist / 高阶辅助驾驶
+智驾供应商:
+- Mobileye
+- Luminar
+- NVIDIA DRIVE
+代表车型:
+- Polestar 2
+- Polestar 3
+- Polestar 4
+赛道布局:
+- 量产辅助驾驶
+数据更新: 2026-06
+来源:
+- https://www.polestar.com
+- https://investors.polestar.com/financials/annual-reports/
+- https://stockanalysis.com/stocks/psny/financials/
+---
+
+# Polestar
+
+<!-- AUTO:START oem-logo -->
+<p><img src="../../assets/logos/oems/polestar.png" alt="Polestar车标" width="96" style="max-height:96px;object-fit:contain;"></p>
+<!-- AUTO:END oem-logo -->
+
+## 定位/主营业务
+
+Polestar 是自动驾驶产业链中的整车平台方，核心观察点是高阶辅助驾驶的前装覆盖、传感器与算力配置、软件订阅/OTA 能力，以及与自研团队或外部供应商的协同。当前页只维护结构化字段中的关系和可核实来源，销量、收入、利润等易变字段保持 `~`。
+
+## 产品矩阵
+
+| 产品/车型 | 定位 | 芯片 | 算力TOPS | 传感器 | 智驾功能 |
+| --- | --- | --- | --- | --- | --- |
+| Polestar 2 | 代表车型 | ~ | ~ | ~ | ~ |
+| Polestar 3 | 代表车型 | ~ | ~ | ~ | ~ |
+| Polestar 4 | 代表车型 | ~ | ~ | ~ | ~ |
+
+## 合作关系
+
+```mermaid
+flowchart LR
+    OEM["Polestar"] --> Plan["Pilot Assist / 高阶辅助驾驶"]
+    Plan --> Supplier["Mobileye / Luminar / NVIDIA DRIVE"]
+    OEM --> Segment["量产辅助驾驶"]
+```
+
+## 里程碑
+
+```mermaid
+timeline
+    title Polestar 智驾里程碑
+    2024 : 高阶辅助驾驶和智能座舱继续成为车型竞争重点
+    2025 : NOA、泊车和主动安全能力向更多价格带扩散
+    2026 : 关注端到端模型、低成本传感器和规模化 OTA
+```
+
+## 一句话点评
+
+Polestar 的智驾关注点在全球高端电动车中的传感器配置、软件体验和平台复用。

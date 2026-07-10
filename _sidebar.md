@@ -1,0 +1,160 @@
+- <a data-route="" href="#">首页</a>
+- <a data-route="数据规范" href="#">数据规范</a>
+
+- 分类导航
+  - 车企 OEM
+    - 按梯队
+      - <a data-route="wiki/oems/README" href="#">梯队总览</a>
+      - <a data-route="wiki/oems/README?id=第一梯队全球规模与智驾标杆" href="#">第一梯队｜全球规模与智驾标杆</a>
+      - <a data-route="wiki/oems/README?id=第二梯队中国高阶智驾主力" href="#">第二梯队｜中国高阶智驾主力</a>
+      - <a data-route="wiki/oems/README?id=第三梯队海外主流智驾跟进" href="#">第三梯队｜海外主流智驾跟进</a>
+      - <a data-route="wiki/oems/README?id=第四梯队特色区域新势力样本" href="#">第四梯队｜特色/区域/新势力样本</a>
+    - 按国家/车系
+      - <a data-route="wiki/oems/README?id=按国家车系分类" href="#">车系总览</a>
+      - <a data-route="wiki/oems/README?id=中系中国品牌" href="#">中系｜中国品牌</a>
+      - <a data-route="wiki/oems/README?id=德系德国品牌" href="#">德系｜德国品牌</a>
+      - <a data-route="wiki/oems/README?id=日系日本品牌" href="#">日系｜日本品牌</a>
+      - <a data-route="wiki/oems/README?id=韩系韩国品牌" href="#">韩系｜韩国品牌</a>
+      - <a data-route="wiki/oems/README?id=美系美国品牌" href="#">美系｜美国品牌</a>
+      - <a data-route="wiki/oems/README?id=欧系其他欧洲品牌" href="#">欧系其他｜欧洲品牌</a>
+  - 自动驾驶公司
+    - 按无人驾驶场景
+      - <a data-route="wiki/ad-companies/README?id=按赛道业务类型分类" href="#">场景总览</a>
+      - <a data-route="wiki/ad-companies/README?id=Robotaxi" href="#">Robotaxi</a>
+      - <a data-route="wiki/ad-companies/README?id=Robotruck" href="#">Robotruck</a>
+      - <a data-route="wiki/ad-companies/README?id=量产辅助驾驶" href="#">量产辅助驾驶</a>
+      - <a data-route="wiki/ad-companies/README?id=RobobusRobovan" href="#">Robobus/Robovan</a>
+      - <a data-route="wiki/ad-companies/README?id=末端配送" href="#">末端配送</a>
+      - <a data-route="wiki/ad-companies/README?id=港口" href="#">港口</a>
+      - <a data-route="wiki/ad-companies/README?id=矿区" href="#">矿区</a>
+    - 按能力类型
+      - <a data-route="wiki/ad-companies/README?id=全栈多赛道" href="#">全栈/多赛道</a>
+      - <a data-route="wiki/ad-companies/README?id=芯片计算平台" href="#">芯片/计算平台</a>
+      - <a data-route="wiki/ad-companies/README?id=传感器激光雷达" href="#">传感器/激光雷达</a>
+      - <a data-route="wiki/ad-companies/README?id=仿真验证工具链" href="#">仿真/验证工具链</a>
+
+- Wiki 总览
+  - <a data-route="wiki/oems/README" href="#">车企 OEM</a>
+  - <a data-route="wiki/ad-companies/README" href="#">自动驾驶公司</a>
+  - <a data-route="wiki/segments/README" href="#">赛道</a>
+
+- 赛道
+  - <a data-route="wiki/segments/robotaxi" href="#">Robotaxi</a>
+  - <a data-route="wiki/segments/production-adas" href="#">量产辅助驾驶</a>
+  - <a data-route="wiki/segments/robotruck" href="#">Robotruck</a>
+  - <a data-route="wiki/segments/robobus-robovan" href="#">Robobus/Robovan</a>
+  - <a data-route="wiki/segments/last-mile-delivery" href="#">末端配送</a>
+  - <a data-route="wiki/segments/port" href="#">港口</a>
+  - <a data-route="wiki/segments/mining" href="#">矿区</a>
+- 车企 OEM
+  - <a data-route="wiki/oems/arcfox" href="#">极狐汽车</a>
+  - <a data-route="wiki/oems/audi" href="#">奥迪</a>
+  - <a data-route="wiki/oems/avatr" href="#">阿维塔</a>
+  - <a data-route="wiki/oems/bmw" href="#">宝马</a>
+  - <a data-route="wiki/oems/byd" href="#">比亚迪</a>
+  - <a data-route="wiki/oems/changan" href="#">长安汽车</a>
+  - <a data-route="wiki/oems/chery" href="#">奇瑞汽车</a>
+  - <a data-route="wiki/oems/denza" href="#">腾势</a>
+  - <a data-route="wiki/oems/ford" href="#">福特</a>
+  - <a data-route="wiki/oems/gac-aion" href="#">广汽埃安</a>
+  - <a data-route="wiki/oems/geely" href="#">吉利汽车</a>
+  - <a data-route="wiki/oems/general-motors" href="#">通用汽车</a>
+  - <a data-route="wiki/oems/great-wall" href="#">长城汽车</a>
+  - <a data-route="wiki/oems/honda" href="#">本田</a>
+  - <a data-route="wiki/oems/hongqi" href="#">红旗</a>
+  - <a data-route="wiki/oems/hyundai" href="#">现代汽车</a>
+  - <a data-route="wiki/oems/im-motors" href="#">智己汽车</a>
+  - <a data-route="wiki/oems/jaguar-land-rover" href="#">捷豹路虎</a>
+  - <a data-route="wiki/oems/kia" href="#">起亚</a>
+  - <a data-route="wiki/oems/leapmotor" href="#">零跑汽车</a>
+  - <a data-route="wiki/oems/li-auto" href="#">理想汽车</a>
+  - <a data-route="wiki/oems/lucid" href="#">Lucid Motors</a>
+  - <a data-route="wiki/oems/mercedes-benz" href="#">梅赛德斯-奔驰</a>
+  - <a data-route="wiki/oems/nio" href="#">蔚来</a>
+  - <a data-route="wiki/oems/nissan" href="#">日产</a>
+  - <a data-route="wiki/oems/polestar" href="#">Polestar</a>
+  - <a data-route="wiki/oems/renault" href="#">雷诺集团</a>
+  - <a data-route="wiki/oems/rivian" href="#">Rivian</a>
+  - <a data-route="wiki/oems/saic" href="#">上汽集团</a>
+  - <a data-route="wiki/oems/seres-aito" href="#">赛力斯/问界</a>
+  - <a data-route="wiki/oems/stellantis" href="#">Stellantis</a>
+  - <a data-route="wiki/oems/tesla" href="#">特斯拉</a>
+  - <a data-route="wiki/oems/toyota" href="#">丰田</a>
+  - <a data-route="wiki/oems/volkswagen" href="#">大众集团</a>
+  - <a data-route="wiki/oems/volvo" href="#">沃尔沃汽车</a>
+  - <a data-route="wiki/oems/voyah" href="#">岚图汽车</a>
+  - <a data-route="wiki/oems/xiaomi-auto" href="#">小米汽车</a>
+  - <a data-route="wiki/oems/xpeng" href="#">小鹏汽车</a>
+  - <a data-route="wiki/oems/zeekr" href="#">极氪</a>
+- 自动驾驶公司
+  - <a data-route="wiki/ad-companies/ambarella" href="#">Ambarella</a>
+  - <a data-route="wiki/ad-companies/applied-intuition" href="#">Applied Intuition</a>
+  - <a data-route="wiki/ad-companies/aptiv" href="#">Aptiv</a>
+  - <a data-route="wiki/ad-companies/argo-ai" href="#">Argo AI</a>
+  - <a data-route="wiki/ad-companies/aurora" href="#">Aurora</a>
+  - <a data-route="wiki/ad-companies/autox" href="#">AutoX</a>
+  - <a data-route="wiki/ad-companies/baidu-apollo-go" href="#">百度Apollo Go</a>
+  - <a data-route="wiki/ad-companies/black-sesame" href="#">黑芝麻智能</a>
+  - <a data-route="wiki/ad-companies/bosch" href="#">博世</a>
+  - <a data-route="wiki/ad-companies/bot-auto" href="#">BOT Auto</a>
+  - <a data-route="wiki/ad-companies/cartken" href="#">Cartken</a>
+  - <a data-route="wiki/ad-companies/caterpillar" href="#">Caterpillar</a>
+  - <a data-route="wiki/ad-companies/continental" href="#">大陆集团</a>
+  - <a data-route="wiki/ad-companies/cruise" href="#">Cruise</a>
+  - <a data-route="wiki/ad-companies/deeproute" href="#">元戎启行</a>
+  - <a data-route="wiki/ad-companies/dji-automotive" href="#">大疆车载</a>
+  - <a data-route="wiki/ad-companies/dspace" href="#">dSPACE</a>
+  - <a data-route="wiki/ad-companies/eacon" href="#">易控智驾</a>
+  - <a data-route="wiki/ad-companies/easymile" href="#">EasyMile</a>
+  - <a data-route="wiki/ad-companies/einride" href="#">Einride</a>
+  - <a data-route="wiki/ad-companies/embark" href="#">Embark Trucks</a>
+  - <a data-route="wiki/ad-companies/fernride" href="#">Fernride</a>
+  - <a data-route="wiki/ad-companies/foretellix" href="#">Foretellix</a>
+  - <a data-route="wiki/ad-companies/gatik" href="#">Gatik</a>
+  - <a data-route="wiki/ad-companies/haomo" href="#">毫末智行</a>
+  - <a data-route="wiki/ad-companies/hesai" href="#">禾赛科技</a>
+  - <a data-route="wiki/ad-companies/horizon-robotics" href="#">地平线机器人</a>
+  - <a data-route="wiki/ad-companies/huawei-qiankun" href="#">华为乾崑智驾</a>
+  - <a data-route="wiki/ad-companies/inceptio" href="#">赢彻科技</a>
+  - <a data-route="wiki/ad-companies/innoviz" href="#">Innoviz</a>
+  - <a data-route="wiki/ad-companies/jiushi" href="#">九识智能</a>
+  - <a data-route="wiki/ad-companies/kodiak" href="#">Kodiak Robotics</a>
+  - <a data-route="wiki/ad-companies/luminar" href="#">Luminar</a>
+  - <a data-route="wiki/ad-companies/magna" href="#">麦格纳</a>
+  - <a data-route="wiki/ad-companies/maxieye" href="#">智驾科技MAXIEYE</a>
+  - <a data-route="wiki/ad-companies/may-mobility" href="#">May Mobility</a>
+  - <a data-route="wiki/ad-companies/minieye" href="#">佑驾创新</a>
+  - <a data-route="wiki/ad-companies/mobileye" href="#">Mobileye</a>
+  - <a data-route="wiki/ad-companies/mogo-auto" href="#">蘑菇车联</a>
+  - <a data-route="wiki/ad-companies/momenta" href="#">Momenta</a>
+  - <a data-route="wiki/ad-companies/motional" href="#">Motional</a>
+  - <a data-route="wiki/ad-companies/neolix" href="#">新石器</a>
+  - <a data-route="wiki/ad-companies/nullmax" href="#">Nullmax</a>
+  - <a data-route="wiki/ad-companies/nuro" href="#">Nuro</a>
+  - <a data-route="wiki/ad-companies/nvidia-drive" href="#">NVIDIA DRIVE</a>
+  - <a data-route="wiki/ad-companies/ouster" href="#">Ouster</a>
+  - <a data-route="wiki/ad-companies/outrider" href="#">Outrider</a>
+  - <a data-route="wiki/ad-companies/phigent-robotics" href="#">鉴智机器人</a>
+  - <a data-route="wiki/ad-companies/plusai" href="#">PlusAI</a>
+  - <a data-route="wiki/ad-companies/pony" href="#">小马智行</a>
+  - <a data-route="wiki/ad-companies/qcraft" href="#">轻舟智航</a>
+  - <a data-route="wiki/ad-companies/qualcomm-snapdragon-ride" href="#">Qualcomm Snapdragon Ride</a>
+  - <a data-route="wiki/ad-companies/renesas" href="#">瑞萨电子</a>
+  - <a data-route="wiki/ad-companies/robosense" href="#">速腾聚创</a>
+  - <a data-route="wiki/ad-companies/semidrive" href="#">芯驰科技</a>
+  - <a data-route="wiki/ad-companies/starship" href="#">Starship Technologies</a>
+  - <a data-route="wiki/ad-companies/tage-idriver" href="#">踏歌智行</a>
+  - <a data-route="wiki/ad-companies/tesla" href="#">特斯拉</a>
+  - <a data-route="wiki/ad-companies/torc-robotics" href="#">Torc Robotics</a>
+  - <a data-route="wiki/ad-companies/tusimple" href="#">图森未来</a>
+  - <a data-route="wiki/ad-companies/uber-atg" href="#">Uber ATG</a>
+  - <a data-route="wiki/ad-companies/uisee" href="#">驭势科技</a>
+  - <a data-route="wiki/ad-companies/valeo" href="#">法雷奥</a>
+  - <a data-route="wiki/ad-companies/waabi" href="#">Waabi</a>
+  - <a data-route="wiki/ad-companies/waymo" href="#">Waymo</a>
+  - <a data-route="wiki/ad-companies/wayve" href="#">Wayve</a>
+  - <a data-route="wiki/ad-companies/weride" href="#">文远知行</a>
+  - <a data-route="wiki/ad-companies/westwell" href="#">西井科技</a>
+  - <a data-route="wiki/ad-companies/whiterhino" href="#">白犀牛</a>
+  - <a data-route="wiki/ad-companies/zf" href="#">采埃孚</a>
+  - <a data-route="wiki/ad-companies/zoox" href="#">Zoox</a>
